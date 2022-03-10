@@ -36,8 +36,7 @@
       justify-content:center;
       margin-top: 40px;
       margin-bottom: 40px;
-
-  }
+   }
   .buttom{
       display: flex;
       justify-content:center;
@@ -48,23 +47,38 @@
       justify-content: center;
       margin-top: 40px;
       margin-bottom: 40px;
-  }
+      cursor: pointer;
+     
+      
+}
   .form input{
       width: 200px;
       height: 55px;
       margin-bottom: 0px;
       font-size: 20px;
-      
-  }
+             ;
+             
+}
   button{
       background-color:#0E185F;
       color:white;
       width:110px;
       height: 50px;
-      border-radius: 6px;
-      -webkit-border-radius: 6px;
-      -moz-border-radius: 6px;
-      -ms-border-radius: 6px;
-      -o-border-radius: 6px;
+      cursor: pointer;
+      } 
+  button:hover{
+      color:rgb(140, 207, 179)
+  }
+a {
+    text-decoration: none;
+    border: 1px solid black;
+
+    border-radius:18px;
+    -webkit-border-radius:18px;
+    -moz-border-radius:18px;
+    -ms-border-radius:18px;
+    -o-border-radius:18px;
+    font-size:15px;
+    -webkit-border-radius: 18px;
+    text-align: center;
 }
-  
